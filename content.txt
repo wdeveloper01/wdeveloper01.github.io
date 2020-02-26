@@ -1,0 +1,50 @@
+ABOUT ME
+
+A 29 year old web developer currently residing in Kuala Lumpur, Malaysia. I focus on front end website content writing, design and development. My key to success is keeping up with ever changing web technologies. I've learnt to appreciate the delicate artistry of putting a well designed & functional website. Challenging projects are what interest me the most.
+
+EDUCATION
+
+Bachelor of Computer Science - Murdoch University, Astralia
+Diploma in Web Design - KDU University, Malaysia
+
+EXPERIENCE
+
+Freelancer 2017 - 2019
+Junior Ui/Ux Designer - Singtel - 2012 -2016
+
+CONTACT
+
+Phone +6017-7311-254
+Email fgarati@live.com
+
+MY WORK
+
+http://chan3esgroup.com/
+https://www.orangesoft.com.my/
+https://apmma.net/
+http://exoreptiles.com/my/shop/
+https://www.vstecs.com.my/
+
+MY SKILLS
+
+Website Design
+Logo Design
+Web Development
+
+Expert
+
+Html & CSS
+Javascript
+Wordpress
+
+
+
+Items to do:
+
+1 - Portfolio -> Images done....
+2 - About Me Image -> image done
+3 - Social Media logos & links
+4 - Contact Email -> DONE
+5 - Contact Boxes -> DONE
+6 - Add Java & Javascript to skills
+7 - Name Graphic reposition
