@@ -22,7 +22,25 @@
 <!-- Favicon Link -->
 <link rel="shortcut icon" type="image/png" href="images/header/favicon.png">
 
+<!--EMAIL JS CDN & Scripts-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
 
+<script type="text/javascript">
+	(function(){
+	   emailjs.init('user_qa85pgxB92PXAq5IFhO3P');
+	})();
+</script>
+<script type="text/javascript">
+   window.onload = function() {
+		document.getElementById('contact-form').addEventListener('submit', function(event) {
+			event.preventDefault();
+			// generate the contact number value
+			this.contact_number.value = Math.random() * 100000 | 0;
+			emailjs.sendForm('gmail', 'template_iUHPj8yY', this);
+		//	window.location.reload();
+		});
+	}
+</script>
 
 </head>
 <body>
@@ -78,7 +96,7 @@
 						</div>
 						<div class="prt_about_details">
 						<p> A 30 year old web developer currently residing in Kuala Lumpur, Malaysia. I focus on front end website content writing, design and development. My key to success is keeping up with ever changing web technologies. I've learnt to appreciate the delicate artistry of putting together a well designed & functional website. Challenging projects are what interest me the most. </p>
-						<!--	<a href="#" class="prt_btn">Download Resume</a> --> <a href="https://wa.me/60177311254" class="prt_btn">Hire Me</a>
+						<!--	<a href="#" class="prt_btn">Download Resume</a> --> <a href="https://wa.me/263778858161" class="prt_btn">Hire Me</a>
 						</div>
 					</div> 	
 				</div>
@@ -294,8 +312,8 @@
 							<h1>How can i help you ?</h1>
 							<div class="prt_contact_form">
 								<div class="row">
-									<form id="contact-form" method="POST" action="https://formspree.io/mjvvppaw" >
-
+									<form id="contact-form" method="POST" action="index.html" >
+										<input type="hidden" name="contact_number">
 										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 											<input type="text" name="user_name" placeholder="Your Name" class="require">
 										</div>
@@ -312,7 +330,7 @@
 											<div class="response"></div>
 										</div>
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<button type="submit" class="prt_btn submitForm" form-type="contact">Submit</button>
+											<button type="submit" class="prt_btn submitForm" form-type="contact">submit</button>
 										</div>
 									</form>
 								</div>
@@ -332,7 +350,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 						<div class="prt_contact_details_box details_box1">
 							<h4>Phone</h4>
-							<p><a href="https://wa.me/60177311254" target="_blank">+6017-7311-254</a> <br>+60112-6388-254</p>
+							<p><a href="https://wa.me/263778858161" target="_blank">+263 778858161</a>  </p>
 						</div> 
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -564,34 +582,26 @@
 						</a>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
-						<a target="_blank" href="https://vstecs.com.my" title="">
+						<a target="_blank" href="http://bdmminingservices.com" title="">
 							<div class="prt_portfolio_img">
-								<img src="images/projects/vstecs.png" alt="Portfolio">
+								<img src="images/projects/bdmmining_services.JPG" alt="Portfolio">
 								<div class="prt_portfolio_text">
-									<h4>VSTECS</h4>
+									<h4>BDM MINING SERVICES</h4>
 								</div>
 							</div>
 						</a>
-						<a target="_blank" href="http://chan3sgroup.com" title="">
+						<a target="_blank" href="http://brandsengage.co.uk" title="">
 							<div class="prt_portfolio_img">
-								<img src="images/projects/chan3esgroup.png" alt="Portfolio">
+								<img src="images/projects/brands_engage.JPG" alt="Portfolio">
 								<div class="prt_portfolio_text">
-									<h4>Chances Group</h4>
+									<h4>BRANDS ENGAGE</h4>
 								</div>
 							</div>
 						</a>
 					</div>
 					
-					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 prt_loadmore">
-						<a  target="_blank" href="http://brandsengage.co.uk" target="_blank" title="">
-							<div class="prt_portfolio_img">
-								<img src="images/projects/brands_engage.jpg" alt="Portfolio">
-								<div class="prt_portfolio_text">
-									<h4>Brands Engage UK</h4>
-								</div>
-							</div>
-						</a>
-					</div>
+					
+					
 					
 					
 				</div>
